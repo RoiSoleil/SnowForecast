@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src\roisoleil\snowforecast\HomeActivity.java" />
+        <ignore path="src\roisoleil\snowforecast\ResortActivity.java" />
+    </issue>
+</lint>
