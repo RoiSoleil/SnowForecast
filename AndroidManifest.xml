@@ -28,12 +28,12 @@
 
             <meta-data
                 android:name="android.app.default_searchable"
-                android:value="roisoleil.snowforecast..SearchableActivity" />
+                android:value="roisoleil.snowforecast.SearchableActivity" />
         </activity>
         <activity android:name="roisoleil.snowforecast.ResortActivity" >
             <meta-data
                 android:name="android.app.default_searchable"
-                android:value="roisoleil.snowforecast..SearchableActivity" />
+                android:value="roisoleil.snowforecast.SearchableActivity" />
         </activity>
         <activity android:name="roisoleil.snowforecast.SearchableActivity" >
             <intent-filter>

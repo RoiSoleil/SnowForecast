@@ -3,6 +3,8 @@ package roisoleil.snowforecast;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.codechimp.apprater.AppRater;
+
 import roisoleil.snowforecast.utils.Utils;
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -15,6 +17,8 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.View;
 
+import com.bugsense.trace.BugSenseHandler;
+
 public class HomeActivity extends FragmentActivity implements
 		ActionBar.TabListener {
 
@@ -25,6 +29,16 @@ public class HomeActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.app_launched(this);
+		AppRater.showRateDialog(this);
+		BugSenseHandler.initAndStartSession(this, "e2e6b9e8");
 		setContentView(R.layout.activity_home);
 
 		final ActionBar actionBar = getActionBar();
